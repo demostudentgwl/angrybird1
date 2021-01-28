@@ -15,7 +15,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
     platform = new Ground(150,300,300,17)
-
+    platform1 = new Ground(250,300,300,17)
     
     ground = new Ground(600,height,1200,20)
 
@@ -61,4 +61,5 @@ function draw(){
 
     bird.display();
     platform.display();
+    platform1.display();
 }
